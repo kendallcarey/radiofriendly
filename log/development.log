@@ -1,3 +1,30 @@
   [1m[36m (47.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
   [1m[35m (8.0ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
   [1m[36mActiveRecord::SchemaMigration Load (7.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (128.2ms)[0m  [1mDROP DATABASE IF EXISTS "radiofriendly_development"[0m
+  [1m[35m (120.1ms)[0m  DROP DATABASE IF EXISTS "radiofriendly_test"
+  [1m[36m (428.9ms)[0m  [1mCREATE DATABASE "radiofriendly_development" ENCODING = 'unicode'[0m
+  [1m[35m (259.2ms)[0m  CREATE DATABASE "radiofriendly_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.9ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (5.9ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) 
+  [1m[36m (3.8ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.5ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.7ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20140925212745)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (35.5ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "username" character varying(255), "password" character varying(255), "email" character varying(255), "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (6.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140925212745"]]
+  [1m[36m (6.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateSongs (20140925212802)
+  [1m[35m (6.2ms)[0m  BEGIN
+  [1m[36m (16.0ms)[0m  [1mCREATE TABLE "songs" ("id" serial primary key, "title" character varying(255), "artist" character varying(255), "user_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140925212802"]]
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Migrating to CreateVotes (20140925212811)
+  [1m[35m (6.4ms)[0m  BEGIN
+  [1m[36m (8.4ms)[0m  [1mCREATE TABLE "votes" ("id" serial primary key, "song_id" integer, "created_at" timestamp, "updated_at" timestamp) [0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20140925212811"]]
+  [1m[36m (6.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.4ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
