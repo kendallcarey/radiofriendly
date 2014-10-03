@@ -2,12 +2,14 @@
 <html>
 <head>
   <title>Radiofriendly</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/welcome.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<h1 id="title">Radio Friend.ly</h1>
+
 <%= yield %>
 
 </body>

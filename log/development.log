@@ -125,3 +125,118 @@ Started GET "/" for 127.0.0.1 at 2014-09-25 15:21:49 -0700
 Processing by WelcomeController#index as HTML
   Rendered welcome/index.html.erb (1.0ms)
 Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:23:59 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:24:01 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:24:19 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (2.4ms)
+Completed 200 OK in 26ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:24:20 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.5ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:25:03 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (1.7ms)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:26:40 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.8ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:26:42 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:26:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:28:32 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.4ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:28:33 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:29:10 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.6ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:30:50 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:32:58 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.5ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:33:00 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.8ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:45:24 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:45:30 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.6ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:47:10 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.5ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:47:11 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.5ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-25 15:47:13 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb (0.4ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
