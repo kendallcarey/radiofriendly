@@ -1,12 +1,17 @@
+<nav id="nav-bar">
+  <h3 class="nav-links">log in</h3>
+  <h3 class="nav-links">faq</h3>
+  <h3 class="nav-links">home</h3>
+</nav>
 <div id="main-container">
 <h1 id="title">Radio Friend.ly</h1>
 <iframe id="player" type="text/html" width="640" height="390"
   src="http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1"
-  frameborder="0"></iframe>
+  frameborder="0" controls="0"></iframe>
 <%= form_tag("/search", method: "get") do %>
-  <%= label_tag(:q, "Search for:") %>
+  <%= label_tag(:q, "Pick a Video:") %>
   <%= text_field_tag(:q) %>
-  <%= submit_tag("Search") %>
+  <%= submit_tag("Find") %>
 <% end %>
 </div>
 
