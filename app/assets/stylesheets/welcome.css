@@ -1,8 +1,0 @@
-#title {
-  font-size: 1em;
-  font-family: Helvetica;
-}
-
-#main-container {
-  background-image: url(<%= asset_path 'radio.png' %>);
-}
