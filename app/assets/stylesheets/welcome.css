@@ -1,7 +1,0 @@
-#title {
-
-}
-
-body {
-  background-image: url(<%= asset_path 'radio.png' %>)
-}
