@@ -2,14 +2,18 @@
 <html>
 <head>
   <title>Radiofriendly</title>
-  <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/welcome.css"> -->
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= yield %>
+  <nav id="nav-bar">
+    <h3 class="nav-links">log in</h3>
+    <h3 class="nav-links">faq</h3>
+    <img src="http://force-ultimate.com/images/indexscroller/home.png" href="welcome#index" id="home">
+  </nav>
+
+  <%= yield %>
 
 </body>
 </html>

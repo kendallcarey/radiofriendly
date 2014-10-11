@@ -1,18 +1,14 @@
-<nav id="nav-bar">
-  <h3 class="nav-links">log in</h3>
-  <h3 class="nav-links">faq</h3>
-  <img src="http://force-ultimate.com/images/indexscroller/home.png" href="welcome#index" id="home">
-</nav>
+
 <div id="main-container">
-<h1 id="title">Radio Friend.ly</h1>
-<iframe id="player" type="text/html" width="640" height="390"
+  <h1 id="title">Radio Friend.ly</h1>
+  <iframe id="player" type="text/html" width="640" height="390"
   src="http://www.youtube.com/embed/M7lc1UVf-VE?enablejsapi=1"
-  frameborder="0" controls="0"></iframe>
+  frameborder="0"></iframe>
   <!-- <input type="text" name="q" class="q" id="q" value="" placeholder="Search" autocomplete="off"> -->
-<%= form_tag("/search", method: "get") do %>
-<!--   <%= label_tag(:q, "Pick a Video:") %> -->
+  <%= form_tag("/search", method: "get") do %>
+  <!--   <%= label_tag(:q, "Pick a Video:") %> -->
   <%= text_field_tag(:q, "Search") %>
   <%= submit_tag("Find") %>
-<% end %>
+  <% end %>
 </div>
 

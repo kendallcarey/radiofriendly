@@ -2730,3 +2730,362 @@ ActionController::RoutingError (No route matches [GET] "/search"):
   Rendered /Users/kendall/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
   Rendered /Users/kendall/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
   Rendered /Users/kendall/.rvm/gems/ruby-2.0.0-p353/gems/actionpack-4.1.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (22.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-08 17:36:16 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 114ms (Views: 113.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-08 17:36:17 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-08 17:36:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-08 17:36:17 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-08 17:36:17 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-08 17:36:17 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-08 17:36:17 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-08 17:36:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-08 17:36:17 -0700
+
+
+Started GET "/assets/radio.png" for 127.0.0.1 at 2014-10-08 17:36:17 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-10 17:13:26 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (28.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 188ms (Views: 139.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-10 17:13:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-10 17:13:26 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-10 17:13:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-10 17:13:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-10 17:13:26 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-10 17:13:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-10 17:13:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-10 17:13:26 -0700
+
+
+Started GET "/assets/radio.png" for 127.0.0.1 at 2014-10-10 17:13:27 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-10 17:14:05 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 113ms (Views: 112.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-10 17:14:05 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-10 17:14:05 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-10 17:14:05 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-10 17:14:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-10 17:14:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-10 17:14:05 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-10 17:14:05 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-10 17:14:05 -0700
+
+
+Started GET "/assets/radio.png" for 127.0.0.1 at 2014-10-10 17:14:05 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-10 17:17:58 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 91ms (Views: 90.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-10 17:17:58 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-10 17:17:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-10 17:17:58 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-10 17:17:58 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-10 17:17:58 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-10 17:17:58 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-10 17:17:58 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-10 17:17:58 -0700
+
+
+Started GET "/assets/radio.png" for 127.0.0.1 at 2014-10-10 17:17:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-10 17:18:30 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-10 17:18:31 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-10 17:18:31 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-10 17:18:31 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-10 17:18:31 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-10 17:18:31 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-10 17:18:31 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-10 17:18:31 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-10 17:18:31 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-10 17:18:54 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-10 17:18:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-10 17:18:54 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-10 17:18:54 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-10 17:18:54 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-10 17:18:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-10 17:18:54 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-10 17:18:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-10 17:18:54 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-10 17:19:38 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 67ms (Views: 66.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-10 17:19:39 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-10 17:19:39 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-10 17:19:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-10 17:19:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-10 17:19:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-10 17:19:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-10 17:19:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-10 17:19:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-10 17:25:09 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-10 17:25:09 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-10 17:25:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-10 17:25:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-10 17:25:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-10 17:25:09 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-10 17:25:09 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-10 17:25:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-10 17:25:09 -0700
+
+
+Started GET "/assets/radio.png" for 127.0.0.1 at 2014-10-10 17:25:09 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-10 17:26:12 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-10 17:26:12 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-10 17:26:12 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-10 17:26:12 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-10 17:26:12 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-10 17:26:12 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-10 17:26:12 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-10 17:26:12 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-10 17:26:12 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-10 17:26:29 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 149ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-10 17:26:29 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-10 17:26:29 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-10 17:26:29 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-10 17:26:29 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-10 17:26:29 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-10 17:26:29 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-10 17:26:29 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-10 17:26:29 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-10 17:27:12 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-10 17:27:12 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-10 17:27:12 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-10 18:10:24 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 76ms (Views: 75.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-10 18:10:24 -0700
+
+
+Started GET "/assets/normalize.css?body=1" for 127.0.0.1 at 2014-10-10 18:10:24 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-10 18:10:24 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-10-10 18:10:24 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-10 18:10:24 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-10 18:10:24 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-10 18:10:24 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-10 18:10:24 -0700
+
+
+Started GET "/assets/radio.png" for 127.0.0.1 at 2014-10-10 18:10:24 -0700
